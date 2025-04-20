@@ -1,0 +1,20 @@
+{
+  "name": "cortex-client",
+  "version": "2.1.0",
+  "description": "Dalet Cortex client SDK for typescript language",
+  "main": "dist/api.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.10.36",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.1",
+    "request": "^2.88.0"
+  }
+}
